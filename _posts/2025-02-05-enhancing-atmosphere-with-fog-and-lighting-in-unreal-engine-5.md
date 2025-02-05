@@ -77,7 +77,7 @@ I will include some before/after screenshots to show how these settings evolved!
 
 ## After
 
-![after 1](https://raw.githubusercontent.com/X-R-G-B/EndlessJourney-public/refs/heads/main/__assets/_posts/2025-02-05-enhancing-atmosphere-with-fog-and-lighting-in-unreal-engine-5/after_1.webp)
-![after 2](https://raw.githubusercontent.com/X-R-G-B/EndlessJourney-public/refs/heads/main/__assets/_posts/2025-02-05-enhancing-atmosphere-with-fog-and-lighting-in-unreal-engine-5/after_2.webp)
-![after 3](https://raw.githubusercontent.com/X-R-G-B/EndlessJourney-public/refs/heads/main/__assets/_posts/2025-02-05-enhancing-atmosphere-with-fog-and-lighting-in-unreal-engine-5/after_3.webp)
-![after 4](https://raw.githubusercontent.com/X-R-G-B/EndlessJourney-public/refs/heads/main/__assets/_posts/2025-02-05-enhancing-atmosphere-with-fog-and-lighting-in-unreal-engine-5/after_4.webp)
+| ### | ### |
+| --- | --- |
+| {::nomarkdown}<img src="https://raw.githubusercontent.com/X-R-G-B/EndlessJourney-public/refs/heads/main/__assets/_posts/2025-02-05-enhancing-atmosphere-with-fog-and-lighting-in-unreal-engine-5/after_1.webp">{:/} | {::nomarkdown}<img src="https://raw.githubusercontent.com/X-R-G-B/EndlessJourney-public/refs/heads/main/__assets/_posts/2025-02-05-enhancing-atmosphere-with-fog-and-lighting-in-unreal-engine-5/after_2.webp">{:/} |
+| {::nomarkdown}<img src="https://raw.githubusercontent.com/X-R-G-B/EndlessJourney-public/refs/heads/main/__assets/_posts/2025-02-05-enhancing-atmosphere-with-fog-and-lighting-in-unreal-engine-5/after_3.webp">{:/} | {::nomarkdown}<img src="https://raw.githubusercontent.com/X-R-G-B/EndlessJourney-public/refs/heads/main/__assets/_posts/2025-02-05-enhancing-atmosphere-with-fog-and-lighting-in-unreal-engine-5/after_4.webp">{:/} |

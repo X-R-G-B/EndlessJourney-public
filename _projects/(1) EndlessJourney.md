@@ -7,4 +7,4 @@ description: Immerse yourself in a horror/co-op game where each session is a uni
 
 # EndlessJourney
 
-
+- [blog tags#endlessjourney](https://x-r-g-b.github.io/EndlessJourney-public/blog/tags#endlessjourney)

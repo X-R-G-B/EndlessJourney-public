@@ -14,27 +14,17 @@ description: In this blog, I will explain how I worked on the visual atmosphere 
 
 I used [Exponential Height Fog](https://dev.epicgames.com/documentation/en-us/unreal-engine/exponential-height-fog-in-unreal-engine) with the ***Volumetric Fog*** option enabled to achieve a realistic fog effect that interacts with light.
 
-#### Main Settings
+#### Exponential Height Fog Settings
 
-- <u>Fog Density</u>
+- <u>Fog Density</u>: Increased to create ***thick fog***, covering the entire map.
 
-> Increased to create ***thick fog***, covering the entire map.
+- <u>Fog Height Falloff</u>: Adjusted to keep the fog dense ***even near the ground***, preventing quick dissipation.
 
-- <u>Fog Height Falloff</u>
+- <u>Start Distance</u>: Little increased to see around the player but still ***maintain a mysterious atmosphere***.
 
-> Adjusted to keep the fog dense ***even near the ground***, preventing quick dissipation.
+- <u>Directional Inscattering Exponent</u>: Reduced so that the moonlight ***disperses through the fog***, creating a slightly misty ambiance.
 
-- <u>Start Distance</u>
-
-> Little increased to see around the player but still ***maintain a mysterious atmosphere***.
-
-- <u>Directional Inscattering Exponent</u>
-
-> Reduced so that the moonlight ***disperses through the fog***, creating a slightly misty ambiance.
-
-- <u>Albedo & Emissive</u>
-
-> Adjusted to give the fog a ***cold and mysterious*** look.
+- <u>Albedo & Emissive</u>: Adjusted to give the fog a ***cold and mysterious*** look.
 
 ---
 
@@ -44,21 +34,13 @@ I uses a ***Directional Light*** to simulate the sun. Using `Ctrl + L`, I ***rot
 
 #### Directional Light Settings
 
-##### Light Color
+- <u>Light Color</u>: Changed to a ***slightly bluish-white*** to simulate the cold moonlight.
 
-Changed to a ***slightly bluish-white*** to simulate the cold moonlight.
+- <u>Intensity</u>: Reduced for a ***soft lighting effect***, avoiding excessive brightness that would break the night effect.
 
-##### Intensity
+- <u>Source Angle</u>: Slightly increased to soften shadows and avoid harsh contrasts.
 
-Reduced for a ***soft lighting effect***, avoiding excessive brightness that would break the night effect.
-
-##### Source Angle
-
-Slightly increased to soften shadows and avoid harsh contrasts.
-
-##### Volumetric Scattering Intensity
-
-Adjusted so that moonlight ***penetrates the fog*** and creates ***realistic light rays*** through the trees.
+- <u>Volumetric Scattering Intensity</u>: Adjusted so that moonlight ***penetrates the fog*** and creates ***realistic light rays*** through the trees.
 
 ---
 
@@ -66,17 +48,11 @@ Adjusted so that moonlight ***penetrates the fog*** and creates ***realistic lig
 
 ***Visible moon rays*** are an important effect to enhance the immersive ambiance. Here's how I achieved this effect:
 
-##### Enabled Volumetric Fog
+- <u>Enabled Volumetric Fog</u>: Allows moonlight to interact with the fog.
 
-Allows moonlight to interact with the fog.
+- <u>Directional Light with Volumetric Scattering</u>: Tweaked intensity so that light passes through objects and creates visible beams.
 
-##### Directional Light with Volumetric Scattering
-
-Tweaked intensity so that light passes through objects and creates visible beams.
-
-##### Strategic tree placement
-
-I tested different angles to maximize the ***impact of rays passing between branches***.
+- <u>Strategic tree placement</u>: I tested different angles to maximize the ***impact of rays passing between branches***.
 
 ---
 
@@ -94,10 +70,10 @@ I will include some before/after screenshots to show how these settings evolved!
 
 ## Before
 
-![before 1](https://raw.githubusercontent.com/X-R-G-B/EndlessJourney-public/refs/heads/main/__assets/_posts/2025-02-05-enhancing-atmosphere-with-fog-and-lighting-in-unreal-engine-5/before_1.webp)
-![before 2](https://raw.githubusercontent.com/X-R-G-B/EndlessJourney-public/refs/heads/main/__assets/_posts/2025-02-05-enhancing-atmosphere-with-fog-and-lighting-in-unreal-engine-5/before_2.webp)
-![before 3](https://raw.githubusercontent.com/X-R-G-B/EndlessJourney-public/refs/heads/main/__assets/_posts/2025-02-05-enhancing-atmosphere-with-fog-and-lighting-in-unreal-engine-5/before_3.webp)
-![before 4](https://raw.githubusercontent.com/X-R-G-B/EndlessJourney-public/refs/heads/main/__assets/_posts/2025-02-05-enhancing-atmosphere-with-fog-and-lighting-in-unreal-engine-5/before_4.webp)
+| ### | ### |
+| --- | --- |
+| {::nomarkdown}<img src="https://raw.githubusercontent.com/X-R-G-B/EndlessJourney-public/refs/heads/main/__assets/_posts/2025-02-05-enhancing-atmosphere-with-fog-and-lighting-in-unreal-engine-5/before_1.webp">{:/} | {::nomarkdown}<img src="https://raw.githubusercontent.com/X-R-G-B/EndlessJourney-public/refs/heads/main/__assets/_posts/2025-02-05-enhancing-atmosphere-with-fog-and-lighting-in-unreal-engine-5/before_2.webp">{:/} |
+| {::nomarkdown}<img src="https://raw.githubusercontent.com/X-R-G-B/EndlessJourney-public/refs/heads/main/__assets/_posts/2025-02-05-enhancing-atmosphere-with-fog-and-lighting-in-unreal-engine-5/before_3.webp">{:/} | {::nomarkdown}<img src="https://raw.githubusercontent.com/X-R-G-B/EndlessJourney-public/refs/heads/main/__assets/_posts/2025-02-05-enhancing-atmosphere-with-fog-and-lighting-in-unreal-engine-5/before_4.webp">{:/} |
 
 ## After
 
